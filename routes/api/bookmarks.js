@@ -9,4 +9,4 @@ router.put('/:id', bookmarkCtrl.updateBookmark, bookmarkCtrl.respondWithBookmark
 // Create
 router.post('/', bookmarkCtrl.createBookmark, bookmarkCtrl.respondWithBookmark)
 
-module.exports = router
+module.exports = router 
