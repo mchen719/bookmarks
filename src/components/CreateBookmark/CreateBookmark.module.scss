@@ -16,17 +16,20 @@
         font-weight: bold;
         margin-right: 10px;
     }
+
     div {
         display: flex;
         justify-content: space-evenly;
         margin-left: 10 vm;
         align-items: center;
     }
+
     input {
         padding: 1vmin;
         font-size: 2vmin;
         border: .1vmin solid var(--text-dark);
     }
+    
     .button {
         margin: 1vmin;
         padding: 1vmin;
