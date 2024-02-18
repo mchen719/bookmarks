@@ -1,0 +1,51 @@
+button {
+    background-color: black;
+    color: grey;
+    border-radius: .5vmin;
+    margin: 1vmin;
+    font-size: 2vmin;
+    height: 3vmin;
+    border-radius: 9px;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    background-color: grey;
+    border: 1px solid rgba(23, 5, 58, 0.1);
+    box-shadow: 2px 4px 8px rgba(23,5, 58, 0.5);
+    display: flex;
+    font-size: 3vmin;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5vmin;
+    margin-right: 50px;
+}
+
+
+
+.bookmark {
+    border: solid 5px black;
+    font-size: 10rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    .button {
+        background-color: rgba(26, 204, 44, 0.8);
+        cursor: pointer;
+        color: ghostwhite;
+        padding: 0.25rem 1rem;
+        font-size: 1rem;
+        font-weight: 700;
+        display: inline-block;
+        margin: 1rem;
+        margin-left: 1rem;
+        border: 2px solid black;
+        box-shadow: 0 2px 5px rgba(23, 5, 58, 0.5);
+    }
+    .link {
+        color: grey;
+        padding: 1rem;
+    }
+
+}
