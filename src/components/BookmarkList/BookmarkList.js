@@ -22,7 +22,7 @@ export default function BookmarkList ({
         }
     </ul>
   )
-}
+} 
 
 
 // import styles from './BookmarkList.module.scss'
